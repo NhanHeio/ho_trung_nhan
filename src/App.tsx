@@ -4,7 +4,8 @@ import {
   sum_to_n_a,
   sum_to_n_b,
   sum_to_n_c
-} from "./Problem/Problem1";
+} from "./Problem/Problem1/Problem1";
+import {CurrencySwapForm} from "./Problem/Problem2/Problem2";
 
 function App() {
 
@@ -17,9 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      {
-        printToScreen(sum_to_n_a(5))
-      }
+      <CurrencySwapForm />
     </div>
   );
 }
